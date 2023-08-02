@@ -36,6 +36,10 @@ ul {
   list-style: none;
 }
 
-.navigation {
+blockquote {
+  margin-left: 0;
+}
+
+.nav {
   display: flex;
 }
