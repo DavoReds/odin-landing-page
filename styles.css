@@ -14,7 +14,7 @@
   --fs-400: 48px;
 
   --fw-bold: 800;
-  --fw-light: light;
+  --fw-light: 300;
 }
 
 *,
@@ -154,4 +154,25 @@ nav {
   margin-top: 1rem;
   text-align: center;
   opacity: 0.7;
+}
+
+.quote {
+  padding: 8rem 24rem;
+  background: var(--clr-gray);
+  display: flex;
+  flex-direction: column;
+}
+
+.quote blockquote {
+  font-size: var(--fs-300);
+  font-weight: var(--fw-light);
+  font-style: italic;
+  color: var(--clr-blue-dark);
+}
+
+.quote p {
+  color: var(--clr-blue-dark);
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-200);
+  align-self: flex-end;
 }
