@@ -13,7 +13,7 @@
   --fs-300: 36px;
   --fs-400: 48px;
 
-  --fw-bold: extra-bold;
+  --fw-bold: 800;
   --fw-light: light;
 }
 
@@ -21,11 +21,21 @@
 *::before,
 *::after {
   box-sizing: border-box;
+}
+
+* {
   margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+html {
+  font-size: var(--fs-100);
 }
 
 body {
   font-family: var(--ff);
+  min-height: 100vh;
 }
 
 a {
@@ -40,6 +50,40 @@ blockquote {
   margin-left: 0;
 }
 
+nav {
+  background: var(--clr-blue-dark);
+  width: 100%;
+}
+
 .nav {
   display: flex;
+  gap: 1.5rem;
+  padding: 1rem 12rem;
+}
+
+.nav__icon {
+  margin-right: auto;
+  color: var(--clr-white);
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-200);
+}
+
+.nav__item {
+  color: var(--clr-gray);
+}
+
+.hero {
+  background: var(--clr-blue-dark);
+  color: var(--clr-white);
+  display: flex;
+  align-items: center;
+  padding: 10rem 12rem;
+}
+
+.hero__text {
+  flex: 1;
+}
+
+.hero__image {
+  flex: 1;
 }
