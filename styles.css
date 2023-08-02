@@ -176,3 +176,29 @@ nav {
   font-size: var(--fs-200);
   align-self: flex-end;
 }
+
+.cta {
+  padding: 6rem 24rem;
+  color: var(--clr-white);
+}
+
+.cta__banner {
+  background: var(--clr-blue-light);
+  padding: 3rem 8rem;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cta__title {
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-200);
+}
+
+.cta__button {
+  padding: 0.5rem 2rem;
+  border: 0.15rem solid var(--clr-white);
+  border-radius: 0.5rem;
+  font-weight: var(--fw-bold);
+}
