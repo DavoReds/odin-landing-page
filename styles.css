@@ -202,3 +202,12 @@ nav {
   border-radius: 0.5rem;
   font-weight: var(--fw-bold);
 }
+
+footer {
+  padding: 2rem 24rem;
+  background: var(--clr-blue-dark);
+  color: var(--clr-white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
